@@ -1,16 +1,74 @@
 .app {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   padding: 30px;
 }
 
 .game {
+  background-color: aliceblue;
+  border-radius: 30px;
+  border: 5px solid black;
   width: 560px;
   height: 560px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
 .game img {
   width: 70px;
   height: 70px;
+}
+
+.score-board {
+  display: flex;
+  position: relative;
+  margin-top: -2%;
+  font-family: "Playpen Sans";
+  background-color: aliceblue;
+  border-radius: 30px;
+  border: 5px solid black;
+}
+
+.game-name {
+  margin-top: -3%;
+  font-family: "Playpen Sans";
+}
+
+.startup {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+.button {
+  position: absolute;
+  background-color: coral;
+  border: 10px solid black;
+  min-width: 200px;
+  min-height: 100px;
+  border-radius: 30px;
+}
+
+.button:hover {
+  background-color: chartreuse;
+}
+
+.refresh {
+  display: flex;
+  position: absolute;
+  top: 6%;
+  left: 30%;
+}
+
+.end {
+  display: flex;
+  position: absolute;
+  top: 6%;
+  left: 57%;
 }

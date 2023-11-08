@@ -62,13 +62,13 @@
 .refresh {
   display: flex;
   position: absolute;
-  top: 6%;
+  top: 8%;
   left: 30%;
 }
 
 .end {
   display: flex;
   position: absolute;
-  top: 6%;
+  top: 8%;
   left: 57%;
 }
